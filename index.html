@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="C:\Users\Nikolas\Downloads\UTS HCI Form Pendaftaran Hasil Akhir\formstyles.css">
+</head>
+
+<body>
+    <p class="kosong"> </p>
+    <form>
+        <div class="titles">
+            <tr>Daftar</tr><br>
+        </div>
+        <div class="titles1">
+            <tr>ini cepat dan mudah.</tr><br>
+        </div>
+        <div class="garis">
+            <tr>_______________________________________________________________________</tr>
+        </div>
+        <div class="names">
+            <p>
+                <input type="text" id="firstname" name="username" placeholder="Nama Depan"
+                    style="height: 27px; width: 160.8px;" required>
+
+                <input type="text" id="lastname" name="username" placeholder="Nama Belakang"
+                    style="height: 27px; width: 160.8px;;" required>
+            </p>
+        </div>
+
+        <div class="emails">
+            <p>
+                <input type="text" id="emails" name="email" placeholder="Nomor seluler atau email"
+                    style="width: 333px; height: 27px;" required>
+            </p>
+        </div>
+
+        <div class="password">
+            <p>
+                <input type="password" id="newpass" name="password" placeholder="Kata sandi baru"
+                    style="width: 333px; height: 27px;" required>
+            </p>
+        </div>
+
+        <div class="date">
+            <label for="date">Tanggal Lahir</label>
+            <label id="qm-tanggal-lahir">?</label><br>
+            <select id="tanggal">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <select id="bulan">
+                <option value="jan">Jan</option>
+                <option value="feb">Feb</option>
+                <option value="mar">Mar</option>
+                <option value="apr">Apr</option>
+                <option value="mei">Mei</option>
+                <option value="jun">jun</option>
+                <option value="jul">jul</option>
+                <option value="aug">Aug</option>
+                <option value="sep">Sep</option>
+                <option value="okt">Okt</option>
+                <option value="nov">Nov</option>
+                <option value="des">Des</option>
+            </select>
+            <select id="tahun">
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select>
+        </div>
+        <br>
+        <label>Jenis Kelamin</label>
+        <label id="qm-gender">?</label>
+
+        <div class="genders">
+            <div class="border-container">
+                <div class="border-gender">
+                    <label for="gender1" id="namagender1">Perempuan</label>
+                    <input type="radio" name="gender" id="gender1" value="Perempuan" required>
+                </div>
+                <div class="border-gender">
+                    <label for="gender2" id="namagender2">Laki-laki</label>
+                    <input type="radio" name="gender" id="gender2" value="Laki-laki" required>
+                </div>
+                <div class="border-gender">
+                    <label for="gender3" id="namagender3">Khusus</label>
+                    <input type="radio" name="gender" id="gender3" value="Kusus" required>
+                </div>
+            </div>
+        </div>
+        <p class="warning">Dengan mengklik Daftar, Anda menyetujui <span style="color: rgb(0, 140, 255);">Ketentuan.
+                Kebijakan Data </span><span style="color: rgb(129, 129, 129);">dan </span><span style="color: rgb(0, 140, 255);"> Kebijakan Cookie </span>kami. Anda akan menerima Notifikasi SMS dari Facebook dan menolaknya kapan saja.
+        </p>
+        <button class="tomboldaftar" type="submit">Daftar</button>
+    </form>
+
+
+</body>
+
+</html>

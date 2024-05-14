@@ -1,0 +1,170 @@
+body{
+    background-color: white;
+    border-color: cyan;
+}
+
+form{
+    color: grey;
+    width: 340px;
+    height: 450px;
+    background: #fff;
+    margin: auto;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 149, 255);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.842);
+    z-index: 2;
+}
+
+.warning{
+    font-size: 12px;
+    text-align: left;
+    text-size-adjust: 1px;
+}
+
+body .titles{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    padding-top: -20px;
+}
+
+body .titles1{
+    font-size: 15px;
+    color: grey;
+}
+
+#tanggal{
+    width: 110px;
+    height: 27px;
+}
+
+#bulan{
+    width: 110px;
+    height: 27px;
+}
+
+#tahun{
+    width: 110px;
+    height: 27px;
+}
+
+body .garis{
+    margin-left: -10px;
+    font-size: 10px;
+    color: rgb(232, 232, 232);
+    padding-left: 2.5px;
+    transform: scale(1.005, 1);
+}
+
+body .kosong{
+    height: 100px;
+}
+
+.tomboldaftar{
+    height: 26px;
+    width: 200px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: #12e712;
+    box-shadow: 0 0 6px rgba(193, 255, 101, 0.814);
+    border-color: #12e712;
+    border-radius: 6px;
+    border-style: hidden;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    display: grid;
+}
+
+.border-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.border-gender{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(154, 154, 154);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.border-gender input{
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#qm-gender{
+    padding-left: 4px;
+    padding-right: 5px;
+    background-color: #12e712;
+    background-color:#5e5e5e;
+    border:1px solid rgb(186, 186, 186);    
+    height:100px;
+    border-radius:50%;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+#qm-tanggal-lahir{
+    padding-left: 4px;
+    padding-right: 5px;
+    background-color: #12e712;
+    background-color:#5e5e5e;
+    border:1px solid rgb(186, 186, 186);    
+    height:100px;
+    border-radius:50%;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+#namagender1{
+    color: black;
+}
+
+
+#namagender2{
+    color: black;
+}
+
+
+#namagender3{
+    color: black;
+}
+
+/*#gender1{
+    color: black;
+    border-right: groove;
+    border-top: groove;
+    border-bottom: groove;
+    border-color: #d8d8d8;
+}
+
+#gender2{
+    color: black;
+    border-right: groove;
+    border-top: groove;
+    border-bottom: groove;
+    border-color: #d8d8d8;
+}
+
+#gender3{
+    color: black;
+    border-right: groove;
+    border-top: groove;
+    border-bottom: groove;
+    border-right: groove;
+    border-color: #d8d8d8;
+} */
